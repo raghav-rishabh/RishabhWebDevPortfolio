@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rishabh's Web Dev-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+            font-family: montserrat;
+        }
+        body{
+            background-color: rgb(9, 9, 53);
+        }
+        .navbar{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: rgb(33, 33, 127);
+            height: 80px;
+        }
+        .navleft{
+            color: white;
+            font-size: 3rem;
+            font-weight: 790;
+        }
+        #ul1{
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+            font-size: 1.02rem;
+        }
+        .firstsection{
+            display: flex;
+            justify-content: space-between;
+            height: 72vh;
+            align-items: center;
+        }
+        .leftsection{
+            color: white;
+            font-size: 3.7rem;
+            margin-left: 100px;
+        }
+        #text_rishabh{
+            color:rgb(214, 126, 25);
+            font-weight: 550;
+            font-style: italic;
+        }
+        .rightsection{
+            margin-top: 40px;
+            margin-right: 100px;
+        }
+        .rulerdiv{
+            display: flex;
+            justify-content: center;
+            margin: 50px 0;
+        }
+        .ruler{
+            width: 90vw;
+            border: 1px solid white;
+            opacity: 70%;
+        }
+        .service{
+            height: 80px;
+            display: flex;
+            justify-content: center;
+        }
+        .heading{
+            color: white;
+            font-size: 2rem;
+            font-weight: 500;
+        }
+        #text_heading{
+            font-size: 1rem;
+            color: gray;
+            font-weight: 200;
+        }
+        .secondsection{
+            height: auto;
+            display: flex;
+            justify-content: space-around;
+        }
+        .descriptive{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 100px;
+        }
+        .description{
+            width: 300px;
+            color: lavender;
+            text-align: center;
+        }
+        .footer{
+            color: lavender;
+            background-color: rgb(4, 4, 34);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 300px;
+            padding-bottom: 20px;
+        }
+        .leftfooter{
+            font-size: 3rem;
+            font-weight: 650;
+            margin-left: 450px;
+        }
+        .rightfooter{
+            display: flex;
+            margin-right: 400px;
+        }
+        #ul2{
+            line-height: 50px;
+            list-style-type:none;
+        }
+        #ul3{
+            line-height: 50px;
+            list-style-type:none;
+        }
+        li:hover{
+            cursor: pointer;
+            text-decoration: underline;
+        }
+        .lowerfooter{
+            display: flex;
+            width: 100vw;
+            height: 50px;
+            margin-top: -50px;
+            background-color: rgb(15, 15, 15);
+            justify-content: center;
+            align-items: center;
+            color: gray;
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <header>
+    <div class="navbar">
+        <div class="navleft">Rishabh</div>
+        <div class="navright">
+            <ul id="ul1">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact Me</a></li>
+                <li><a href="#">Support Me</a></li>
+                <li><a href="#">Feedback</a></li>
+            </ul>
+        </div>
+    </div>
+    </header>
+    <section class="firstsection">
+        <div class="leftsection">
+            <div>Hello I'm <span id="text_rishabh">Rishabh</span>!</div>
+            <div>I'm a passionate</div>
+            <span id="element"></span>
+        </div>
+        <div class="rightsection">
+            <img src="./—Pngtree—developers are coding programs on_14867886.png" alt="" width="700px">
+        </div>
+    </section>
+    <ruler class="rulerdiv">
+        <div class="ruler"></div>
+    </ruler>
+    <section class="service">
+        <div class="heading">
+            <div>What can I provide?
+            <div id="text_heading">Pretty dedicated to what I do</div></div>
+        </div>
+    </section>
+    <section class="secondsection">
+        <div class="logos">
+            <img src="./HTML5-Logo-PNG-Symbol-for-Web-Development-Transparent.png" alt="" width="300px">
+        </div>
+        <div class="logos">
+            <img src="./CSS-Logo-PNG-Symbol-for-Web-Development-Transparent.png" alt="" width="300px">
+        </div>
+        <div class="logos">
+            <img src="./Python-programming-code-coding-transparent-PNG-image.png" alt="" width="300px">
+        </div>
+    </section>
+    <section class="descriptive">
+        <div class="description">
+            HTML is a thing which I enjoy doing. It is not about pressure or work-load but the HTML is just what I love.
+        </div>
+        <div class="description">
+            Who doesn't love to style what he/she creates. That goes same with my relation with CSS.
+        </div>
+        <div class="description">
+            Python! Did not grab my attention in the very beginning but as soon as I got to this language it became one of my favourite.
+        </div>
+    </section>
+    <footer>
+        <div class="footer">
+            <div class="leftfooter">
+                <div>Hope</div>
+                <div>You had a</div>
+                <div>Good time</div>
+            </div> 
+            <div class="rightfooter">
+                <ul id="ul2">
+                    <li>Home</li>
+                    <li>Go to Top</li>
+                    <li>Contact me</li>
+                    <li>Services</li>
+                </ul>
+                <ul id="ul3">
+                    <li>Home</li>
+                    <li>Go to Top</li>
+                    <li>Contact me</li>
+                    <li>Services</li>
+                </ul>
+                <ul id="ul3">
+                    <li>Home</li>
+                    <li>Go to Top</li>
+                    <li>Contact me</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+        </div>
+        <div class="lowerfooter">
+            &copy; All copyrights reserved | Rishabh's Portfolio 2006-2025
+        </div>
+    </footer>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Programmer', 'Web Developer','Video Editor','And Maybe','Your best companion'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+</html>
