@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback form | Rishabh's WebDev portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <style>
+            * {
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background:rgb(9, 9, 53);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .feedback-container {
+      background: rgb(99, 99, 193);
+      padding: 2rem 2.5rem;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      width: 500px;
+    }
+
+    h2 {
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+      margin-bottom: 1.5rem;
+      font-weight: 600;
+    }
+
+    label {
+        font-family: montserrat;
+      display: block;
+      margin-bottom: 0.5rem;
+      font-size: 0.95rem;
+      color: white;
+    }
+
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 0.8rem;
+      border: 2px solid #ccc;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      margin-bottom: 1.2rem;
+      transition: border-color 0.3s;
+    }
+
+    input[type="email"]:focus,
+    textarea:focus {
+      border-color: #4a90e2;
+      outline: none;
+    }
+
+    textarea {
+      resize: none;
+      height: 120px;
+    }
+
+    button {
+      width: 100%;
+      padding: 0.9rem;
+      background: #4a90e2;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background: #3c7dc1;
+    }
+
+    @media (max-width: 480px) {
+      .feedback-container {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+</head>
+<body>
+  <div class="feedback-container">
+    <h2>Enter Your Feedback Here</h2>
+    <form action="./feedbacksubmission.html" method="get">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Enter your email" required />
+
+      <label for="feedback">Your Feedback:</label>
+      <textarea id="feedback" name="feedback" placeholder="Type your feedback here..." required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
